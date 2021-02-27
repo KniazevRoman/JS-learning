@@ -35,3 +35,26 @@ function sumInput() {
   return result;
 }
 */
+
+// #5 A maximal subarray
+
+arr = [2, -1, 2, 3, -9];
+
+function getMaxSubSum(arr) {
+  let maxSubSum = 0;
+
+  for (let start = 0; start < arr.length; start++) {
+    let sum = 0;
+    for (let i = start; i < arr.length; i++){
+      sum += arr[i];
+
+      if(sum > maxSubSum) {
+        maxSubSum = sum;
+      }
+    }
+  }
+
+  return maxSubSum;
+}
+
+alert(getMaxSubSum(arr));

@@ -1,0 +1,141 @@
+/* #4
+body {
+    height: 2000px;
+}
+
+#field {
+    width: 200px;
+    height: 150px;
+    border: 10px solid black;
+    background-color: #00FF00;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#ball {
+    cursor: pointer;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    transition: all 1s;
+    left: 142px;
+    top: 16.6px;
+}
+*/
+
+/* // #5
+.list {
+    list-style: none;
+}
+
+.hidden {
+    display: none;
+}
+*/
+
+/* #6
+body {
+    margin: 10px auto;
+    width: 470px;
+}
+
+h3 {
+    margin: 0;
+    padding-bottom: .3em;
+    font-size: 1.1em;
+}
+
+p {
+    margin: 0;
+    padding: 0 0 .5em;
+}
+
+.pane {
+    background: #edf5e1;
+    padding: 10px 20px 10px;
+    border-top: solid 2px #c4df9b;
+    position: relative;
+}
+
+.remove-button {
+    font-size: 110%;
+    color: darkred;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+*/
+
+.arrow {
+    padding: 0;
+    background: #ddd;
+    border-radius: 15px;
+    border: 1px solid gray;
+    font-size: 24px;
+    line-height: 24px;
+    color: #444;
+    display: block;
+}
+
+.arrow:focus {
+    outline: none;
+}
+
+.arrow:hover {
+    background: #ccc;
+    cursor: pointer;
+}
+
+ul {
+    height: 130px;
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+ul img {
+    width: 130px;
+    height: 130px;
+    display: block; /* removes extra space near images */
+}
+
+ul li {
+    display: inline-block; /* removes extra space between list items */
+}
+
+.outer-container {
+    width: 600px;
+    overflow-x: auto;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.inner-container {
+    max-width: 400px;
+    overflow-x: scroll;
+}
+
+.arrow:first-child {
+    margin-left: 20px;
+}
+
+.arrow:last-child {
+    margin-right: 20px;
+}
+
+::-webkit-scrollbar {
+    height: 0;  
+}
